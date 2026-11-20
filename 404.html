@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Moved</title>
+<script>
+  // ARENA_img moved from info-arena to ARENA-education. GitHub Pages cannot
+  // issue real redirects, so forward the same path to the new site.
+  var NEW = "https://arena-education.github.io";
+  if (location.pathname.indexOf("/ARENA_img/") === 0) {
+    location.replace(NEW + location.pathname + location.search + location.hash);
+  }
+</script>
+</head>
+<body>
+<p>This content has moved to
+<a href="https://arena-education.github.io/ARENA_img/">arena-education.github.io/ARENA_img</a>.</p>
+</body>
+</html>
